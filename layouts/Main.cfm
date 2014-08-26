@@ -1,0 +1,3 @@
+<cfoutput>
+	#renderView()#
+</cfoutput>

@@ -1,0 +1,44 @@
+{
+    "name":"ColdBox Dependency Sample App",
+    "version":"1.0.0.0000",
+    "author":"Brad Wood",
+  	"slug":"ColdBox-Dependency-Sample-App",
+    "shortDescription":"I am a sample app. Use the install command to install my dependencies.",
+    "defaultPort":15001,
+    "dependencies":{
+        "coldbox-be":"4.0.0",
+        "weather-lookup-by-ip":"1.0.0"
+    },
+    "devDependencies":{
+        "testbox":"2.0.0"
+    },
+    "testbox":{
+        "runner":[
+            {
+                "default":"http://localhost:15001/tests/"
+            }
+        ],
+        "labels":[
+            
+        ],
+        "reporter":"",
+        "reporterResults":"",
+        "bundles":[
+            ""
+        ],
+        "directory":{
+            "mapping":"",
+            "recurse":true
+        },
+        "watchers":[
+            
+        ],
+        "notify":{
+            "emails":[
+                
+            ],
+            "growl":"",
+            "url":""
+        }
+    }
+}
