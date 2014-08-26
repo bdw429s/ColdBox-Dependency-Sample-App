@@ -9,7 +9,9 @@
 		Humidity: #prc.weatherData.main.humidity#%<br>
 		<br>
 	<cfelse>
-		Sorry, weather isn't available since I can't figure out where you are.
+		Sorry, weather isn't available since I can't figure out where you are.<br>
+		Make sure you've signed up for a free account at http://www.ipinfodb.com and put your developer key in the ColdBox config.<br>
+		Also, if your IP address isn't real (like 127.0.0.1) you can pass a hard-coded IP into the call in the handler.
 	</cfif>
 	
 </cfoutput>
