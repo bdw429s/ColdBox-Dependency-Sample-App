@@ -14,32 +14,6 @@
         "testbox":"2.0.0"
     },
     "testbox":{
-        "runner":[
-            {
-                "default":"http://localhost:15001/tests/"
-            }
-        ],
-        "labels":[
-            
-        ],
-        "reporter":"",
-        "reporterResults":"",
-        "bundles":[
-            ""
-        ],
-        "directory":{
-            "mapping":"",
-            "recurse":true
-        },
-        "watchers":[
-            
-        ],
-        "notify":{
-            "emails":[
-                
-            ],
-            "growl":"",
-            "url":""
-        }
+        "runner":"http://localhost:15001/tests/"
     }
 }
