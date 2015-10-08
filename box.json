@@ -3,6 +3,7 @@
     "version":"1.0.0.0000",
     "author":"Brad Wood",
   	"slug":"ColdBox-Dependency-Sample-App",
+  	"createPackageDirectory":false,
     "shortDescription":"I am a sample app. Use the install command to install my dependencies.",
     "defaultPort":15001,
     "dependencies":{
