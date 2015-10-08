@@ -7,7 +7,7 @@
     "shortDescription":"I am a sample app. Use the install command to install my dependencies.",
     "defaultPort":15001,
     "dependencies":{
-        "coldbox-be":"4.0.0",
+        "coldbox":"4.0.0",
         "weather-lookup-by-ip":"1.0.0"
     },
     "devDependencies":{
