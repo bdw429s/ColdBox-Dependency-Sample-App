@@ -14,5 +14,10 @@
     },
     "testbox":{
         "runner":"http://localhost:15001/tests/"
+    },
+    "installPaths":{
+        "coldbox":"coldbox",
+        "weather-lookup-by-ip":"modules\\weather-lookup-by-ip",
+        "testbox":"testbox"
     }
 }
