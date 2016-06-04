@@ -8,8 +8,8 @@
     "shortDescription":"I am a sample app. Use the install command to install my dependencies.",
     "defaultPort":15001,
     "dependencies":{
-        "coldbox":"4.1.0+00002",
-        "weather-lookup-by-ip":"1.0.0"
+        "coldbox":"4.x",
+        "weather-lookup-by-ip":"1.x"
     },
     "devDependencies":{
         "testbox":"2.2.0"
